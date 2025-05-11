@@ -1,0 +1,33 @@
+{
+  "name": "phpust/freepik-icon-api",
+  "description": "Unofficial Freepik Icon API client for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Seyyed Sajjad Kashizadeh",
+      "email": "s.kashizadeh@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Freepik\\IconApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^9.0|^10.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Freepik\\IconApi\\FreepikServiceProvider"
+      ],
+      "aliases": {
+        "Freepik": "Freepik\\IconApi\\Facades\\Freepik"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
