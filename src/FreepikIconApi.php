@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Core\IconApi;
+namespace Freepik\IconApi;
 
 use Illuminate\Support\Facades\Cache;
 
